@@ -1,0 +1,173 @@
+body {
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  background-color: #222;
+  height: 55px;
+  display: flex;
+  gap: 990px;
+}
+
+.logo {
+  color: white;
+  font-size: 1.2rem;
+  margin-left: 1%;
+  margin-top: 1%;
+}
+
+.header {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  background-color: #3876f2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  height: 40px;
+  font-size: 15px;
+  margin-top: 2%;
+  margin-right: 10px;
+}
+
+.nav-para {
+  display: flex;
+  gap: 25px;
+  margin-top: -10px;
+  color: white;
+  margin-top: 2.4%;
+  font-weight: 50;
+}
+
+.nav-para > p {
+  font-weight: 100;
+  font-size: 1rem;
+}
+
+.quizpage {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sheet {
+  background-color: #ffffff;
+  height: 100%;
+  width: 40%;
+  margin-top: 30px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.question1,
+.question2,
+.question3,
+.question4,
+.question5,
+.question6,
+.question7,
+.question8,
+.question9,
+.question10 {
+  height: 270px;
+  width: 100%;
+  background-color: #f3f2f2;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+p {
+  margin: 10px;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.option {
+  border: 0.5px solid #717171;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  margin-left: 25px;
+  margin-right: 20px;
+  height: 40px;
+  background-color: #eae9e9;
+  display: flex;
+  align-items: center;
+}
+
+.performance {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  background-color: #cedef2;
+  margin-top: 50px;
+  border-radius: 5px;
+  margin-bottom: 100px;
+}
+
+label {
+  font-size: 20px;
+}
+
+.score {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
+
+.correct {
+  margin: 30px;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.wrong {
+  margin: 20px;
+}
+
+.footer {
+  height: 100px;
+  width: 100%;
+  background-color: #222;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.instagram,
+.facebook,
+.twitter {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.instagram > img,
+.facebook > img,
+.twitter > img {
+  width: 100%;
+  height: auto;
+}
+
+.instagram > p,
+.facebook > p,
+.twitter > p {
+  color: white;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
